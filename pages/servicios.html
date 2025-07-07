@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/battery-charging.svg">
+    <link href="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.css" rel="stylesheet" />
+    <script src="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Servicios - POLTECH QUITO</title>
+</head>
+
+<body class="bg-[#E7F6F2] dark:bg-[#E7F6F2] text-gray-900 dark:text-white">
+    <header>
+        <nav class="bg-[#A5C9CA] dark:bg-[#A5C9CA] py-4 shadow-md">
+            <div class="max-w-screen-xl mx-auto flex flex-col items-center">
+
+                <img src="img/logoPoltech.svg" class="h-40 w-auto" alt="POLTECH Logo" />
+
+                <span class="text-2xl font-bold text-black mb-8">SERVICIOS</span>
+
+                <ul class="flex flex-wrap justify-center space-x-4 mb-4">
+                    <li><a href="/index.html" class="text-black hover:text-blue-200 font-semibold">INICIO</a></li>
+                    <li><a href="nosotros.html" class="text-black hover:text-blue-200 font-semibold">NOSOTROS</a>
+                    </li>
+                    <li><a href="productos.html"
+                            class="text-black hover:text-blue-200 font-semibold">PRODUCTOS</a></li>
+                    <li><a href="servicios.html"
+                            class="text-black hover:text-blue-200 font-semibold">SERVICIOS</a></li>
+                </ul>
+
+                <button type="button"
+                    class="text-white bg-blue-600 hover:bg-blue-700 focus:ring-4 focus:outline-none focus:ring-blue-300 font-semibold rounded-lg text-sm px-5 py-2 dark:bg-black dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                    CONTACTO
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container mx-auto px-4 py-8">
+        <section id="our-services" class="mb-12 bg-[#A5C9CA] dark:bg-[#A5C9CA] rounded-lg shadow-lg p-8">
+            <h1 class="text-4xl font-bold text-center text-black dark:text-black mb-8">Nuestros Servicios</h1>
+    
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
+                <div
+                    class="flex flex-col items-center text-center p-6 bg-[#E7F6F2] dark:bg-[#E7F6F2] rounded-lg shadow-md">
+                    <i class="bi bi-tools text-6xl text-black mb-4"></i>
+                    <h2 class="text-2xl text-black font-semibold mb-2">Servicio Técnico Especializado</h2>
+                    <p class="text-lg text-black ">
+                        Ofrecemos diagnóstico, reparación y mantenimiento para una amplia gama de dispositivos
+                        electrónicos.
+                        Nuestros técnicos certificados garantizan soluciones eficientes y duraderas.
+                    </p>
+                </div>
+
+                <div
+                    class="flex flex-col items-center text-center p-6 bg-[#E7F6F2] dark:bg-[#E7F6F2] rounded-lg shadow-md">
+                    <i class="bi bi-person-lines-fill text-6xl text-black mb-4"></i>
+                    <h2 class="text-2xl text-black font-semibold mb-2">Asesoría Personalizada</h2>
+                    <p class="text-lg text-black">
+                        Te guiamos en la elección de los productos y soluciones tecnológicas que mejor se adapten a tus
+                        necesidades,
+                        ya seas un usuario individual o una empresa.
+                    </p>
+                </div>
+
+                <div
+                    class="flex flex-col items-center text-center p-6 bg-[#E7F6F2] dark:bg-[#E7F6F2] rounded-lg shadow-md">
+                    <i class="bi bi-gear-fill text-6xl text-black mb-4"></i>
+                    <h2 class="text-2xl text-black font-semibold mb-2">Instalación y Configuración</h2>
+                    <p class="text-lg text-black">
+                        Nos encargamos de la correcta instalación y configuración de tus nuevos equipos, redes y
+                        software,
+                        asegurando un funcionamiento óptimo desde el primer momento.
+                    </p>
+                </div>
+            </div>
+
+            <div >
+        <img class="w-right mx-auto h-80 w-100 object-cover rounded-t-lg mb-4"
+                            src="img/CONTACTO.jpeg"
+                            alt="contacto" loading="lazy" />
+    </div>
+
+            <section id="contact-form" class="bg-[#E7F6F2] dark:bg-[#E7F6F2] rounded-lg shadow-md p-8">
+                <h2 class="text-3xl font-bold text-center text-black dark:text-black mb-8">Contáctanos para
+                    Servicios</h2>
+                <form action="#" method="POST" class="max-w-xl mx-auto space-y-6">
+                    <div>
+                        <label for="full-name"
+                            class="block text-sm font-medium text-black dark:text-black mb-2">Nombre
+                            Completo</label>
+                        <input type="text" id="full-name" name="full_name"
+                            class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-600 dark:border-gray-500 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                            placeholder="Tu nombre" required aria-required="true">
+                    </div>
+                    <div>
+                        <label for="email"
+                            class="block text-sm font-medium text-black dark:text-black mb-2">Correo
+                            Electrónico</label>
+                        <input type="email" id="email" name="email"
+                            class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-600 dark:border-gray-500 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                            placeholder="tu.email@ejemplo.com" required aria-required="true">
+                    </div>
+                    <div>
+                        <label for="phone"
+                            class="block text-sm font-medium text-black dark:text-black mb-2">Teléfono
+                            (Opcional)</label>
+                        <input type="tel" id="phone" name="phone"
+                            class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-600 dark:border-gray-500 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                            placeholder="Ej: +593 99 123 4567">
+                    </div>
+                    <div>
+                        <label for="service-type"
+                            class="block text-sm font-medium text-black dark:text-black mb-2">Tipo de
+                            Servicio</label>
+                        <select id="service-type" name="service_type"
+                            class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                            required aria-required="true">
+                            <option value="">Selecciona un servicio</option>
+                            <option value="technical_support">Soporte Técnico</option>
+                            <option value="consulting">Asesoría</option>
+                            <option value="installation">Instalación y Configuración</option>
+                            <option value="other">Otro</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="message" class="block text-sm font-medium text-black dark:text-black mb-2">Tu
+                            Mensaje</label>
+                        <textarea id="message" name="message" rows="6"
+                            class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg shadow-sm border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                            placeholder="Describe tu requerimiento o consulta..." required
+                            aria-required="true"></textarea>
+                    </div>
+                    
+                    <button type="submit"
+                        class="w-full py-3 px-5 text-sm font-medium text-center text-white rounded-lg bg-black sm:w-fit hover:bg-black focus:ring-4 focus:outline-none focus:ring-black dark:bg-black dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                        Enviar Mensaje
+                    </button>
+                </form>
+            </section>
+        </section>
+    </main>
+
+    <footer class="bg-[#A5C9CA] dark:bg-[#A5C9CA] text-black py-8 mt-12">
+        <div class="mx-auto w-full max-w-screen-xl p-4 md:py-8">
+            <div class="md:flex md:justify-between">
+                <div class="mb-6 md:mb-0">
+                    <a href="/index.html" class="flex items-center">
+                        <img src="img/logoPoltech.svg" class="h-20 me-10" alt="POLTECH QUITO Logo" />
+                        <span class="self-center text-2xl text-2xl font-bold text-black">POLTECH
+                            QUITO</span>
+                    </a>
+                </div>
+                <div>
+                    <h2 class="mb-6 text-sm font-semibold text-gray-200 uppercase dark:text-black">Síguenos</h2>
+                    <ul class="text-black-300 dark:text-black-400 font-medium">
+                        <li class="mb-2">
+                            <a href="https://github.com/themesberg/flowbite" class="hover:underline">Github</a>
+                        </li>
+                        <li>
+                            <a href="https://discord.gg/hrR4JsX" class="hover:underline">Discord</a>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <h2 class="mb-6 text-sm font-semibold text-gray-200 uppercase dark:text-black">TIENDAS</h2>
+                    <ul class="text-black-300 dark:text-black-400 font-medium">
+                        <li class="mb-2">
+                            <a href="https://maps.app.goo.gl/YUmAEe949D52SnyE8" class="hover:underline">Tienda Quito SUR</a>
+                        </li>
+                        <li>
+                            <a href="https://maps.app.goo.gl/eeUUACBpBbcGQsyd9" class="hover:underline">Tienda Quito NORTE</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <hr class="my-6 border-gray-700 sm:mx-auto dark:border-gray-700 lg:my-8" />
+        <div class="sm:flex sm:items-center sm:justify-between">
+            <span class="text-sm text-gray-300 sm:text-center dark:text-gray-400">© 2025 <a href="index.html"
+                    class="hover:underline">POLTECH QUITO™</a>. Todos los derechos reservados.
+            </span>
+            <div class="flex mt-4 xl:justify-center xl:mt-0 space-x-5 rtl:space-x-reverse">
+                <a href="https://www.facebook.com/paul.antamba.13" class="text-gray-300 hover:text-white dark:hover:text-white">
+                    <i class="bi bi-facebook h-4 w-4"></i>
+                    <span class="sr-only">Facebook</span>
+                </a>
+                
+            </div>
+        </div>
+        </div>
+    </footer>
+</body>
+
+</html>

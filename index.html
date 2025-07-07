@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/img/logoPoltech.svg">
+    <link href="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.css" rel="stylesheet" />
+    <script src="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Inicio - POLTECH QUITO</title>
+</head>
+
+<body class="bg-[#E7F6F2] dark:bg-[#E7F6F2] text-gray-900 dark:text-black">
+    <header>
+        <nav class="bg-[#A5C9CA] dark:bg-[#A5C9CA] py-4 shadow-md">
+            <div class="max-w-screen-xl mx-auto flex flex-col items-center">
+
+                <img src="img/logoPoltech.svg" class="h-40 w-auto" alt="POLTECH Logo" />
+
+                <span class="text-2xl font-bold text-black mb-8">TIENDA OFICIAL</span>
+
+                <ul class="flex flex-wrap justify-center space-x-4 mb-4">
+                    <li><a href="index.html" class="text-black hover:text-blue-200 font-semibold">INICIO</a></li>
+                    <li><a href="pages/nosotros.html" class="text-black hover:text-blue-200 font-semibold">NOSOTROS</a></li>
+                    <li><a href="pages/productos.html"
+                            class="text-black hover:text-blue-200 font-semibold">PRODUCTOS</a></li>
+                    <li><a href="pages/servicios.html"
+                            class="text-black hover:text-blue-200 font-semibold">SERVICIOS</a></li>
+                </ul>
+
+                <button type="button"
+                    class="text-white bg-blue-600 hover:bg-blue-700 focus:ring-4 focus:outline-none focus:ring-blue-300 font-semibold rounded-lg text-sm px-5 py-2 dark:bg-black dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                    CONTACTO
+                </button>
+            </div>
+        </nav>
+
+    </header>
+
+    <main class="container mx-auto px-4 py-8">
+        <section id="hero-carousel" class="mb-12">
+            <h2 class="sr-only">Carrusel de Imágenes Destacadas</h2>
+            <div id="default-carousel" class="relative w-full" data-carousel="slide">
+                <div class="relative h-56 rounded-lg md:h-96 overflow-hidden">
+                    <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                        <img src="/img/vista.png"
+                            class="absolute block w-full h-full object-cover inset-0"
+                            alt="Vista aérea de una ciudad iluminada por la noche, destacando la tecnología.">
+                    </div>
+                    <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                        <img src="/img/chip.png"
+                            class="absolute block w-full h-full object-cover inset-0"
+                            alt="Circuitos y componentes electrónicos, simbolizando innovación tecnológica.">
+                    </div>
+                    <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                        <img src="/img/tecnico.png"
+                            class="absolute block w-full h-full object-cover inset-0"
+                            alt="Un técnico trabajando en un servidor, representando servicios de soporte.">
+                    </div>
+                    <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                        <img src="/img/placa.png"
+                            class="absolute block w-full h-full object-cover inset-0"
+                            alt="Una placa base de computadora con detalles de circuitos integrados.">
+                    </div>
+                    <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                        <img src="img/carga.png"
+                            class="absolute block w-full h-full object-cover inset-0"
+                            alt="Un dispositivo electrónico con una batería cargando, simbolizando energía y eficiencia.">
+                    </div>
+                </div>
+                <div class="absolute z-30 flex -translate-x-1/2 space-x-3 rtl:space-x-reverse bottom-5 left-1/2">
+                    <button type="button" class="w-3 h-3 rounded-full" aria-current="true" aria-label="Slide 1"
+                        data-carousel-slide-to="0"></button>
+                    <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 2"
+                        data-carousel-slide-to="1"></button>
+                    <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 3"
+                        data-carousel-slide-to="2"></button>
+                    <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 4"
+                        data-carousel-slide-to="3"></button>
+                    <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 5"
+                        data-carousel-slide-to="4"></button>
+                </div>
+                <button type="button"
+                    class="absolute top-0 start-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
+                    data-carousel-prev aria-label="Previous slide">
+                    <span
+                        class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+                        <svg class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true"
+                            xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M5 1 1 5l4 4" />
+                        </svg>
+                        <span class="sr-only">Previous</span>
+                    </span>
+                </button>
+                <button type="button"
+                    class="absolute top-0 end-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
+                    data-carousel-next aria-label="Next slide">
+                    <span
+                        class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+                        <svg class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true"
+                            xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="m1 9 4-4-4-4" />
+                        </svg>
+                        <span class="sr-only">Next</span>
+                    </span>
+                </button>
+            </div>
+        </section>
+
+        <section id="featured-products"
+            class="py-8 bg-[#A5C9CA] dark:bg-[#A5C9CA] rounded-lg shadow-lg ">
+            <h2 class="text-3xl font-bold text-center mb-8 text-bl">Nuestros Productos</h2>
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div
+                    class="bg-[#E7F6F2] dark:bg-[#E7F6F2] rounded-lg shadow-lg overflow-hidden flex flex-col items-center p-6">
+                    <a href="productos.html"
+                        aria-label="View details for Cámara SONY con Obturador Profesional de alta velocidad">
+                        <img class="w-full h-48 object-cover rounded-t-lg mb-4"
+                            src="/img/camara.png"
+                            alt="Cámara SONY con Obturador Profesional de alta velocidad" loading="lazy" />
+                    </a>
+                    <div class="flex flex-col items-center text-center flex-grow">
+                        <h3 class="text-xl font-semibold mb-2">Cámara SONY con Obturador Profesional !OFERTA!
+                        </h3>
+                        <div class="flex items-center mb-4">
+                            <span class="text-yellow-400">
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star"></i>
+                            </span>
+                            <span class="text-sm text-gray-600 dark:text-gray-400 ml-2">(4.0)</span>
+                        </div>
+                        <p class="text-lg font-bold text-gray-700 dark:text-black mb-4">$1299.00</p>
+                        <a href="#"
+                            class="inline-block bg-black hover:bg-blue-700 text-white font-semibold py-2 px-4 rounded-lg transition duration-300 ease-in-out">
+                            Añadir al carrito
+                        </a>
+                    </div>
+                </div>
+
+                <div
+                    class="bg-[#E7F6F2] dark:bg-[#E7F6F2] rounded-lg shadow-lg overflow-hidden flex flex-col items-center p-6">
+                    <a href="productos.html" aria-label="View details for Audífonos Inalámbricos de Alta Fidelidad">
+                        <img class="w-full h-48 object-cover rounded-t-lg mb-4"
+                            src="/img/audi.png"
+                            alt="Audífonos Inalámbricos de Alta Fidelidad" loading="lazy" />
+                    </a>
+                    <div class="flex flex-col items-center text-center flex-grow">
+                        <h3 class="text-xl font-semibold mb-2">Audífonos Inalámbricos de Alta Fidelidad !OFERTA!</h3>
+                        <div class="flex items-center mb-4">
+                            <span class="text-yellow-400">
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-half"></i>
+                            </span>
+                            <span class="text-sm text-gray-600 dark:text-gray-400 ml-2">(4.5)</span>
+                        </div>
+                        <p class="text-lg font-bold text-gray-700 dark:text-black mb-4">$249.99</p>
+                        <a href="#"
+                            class="inline-block bg-black hover:bg-blue-700 text-white font-semibold py-2 px-4 rounded-lg transition duration-300 ease-in-out">
+                            Añadir al carrito
+                        </a>
+                    </div>
+                </div>
+
+                <div
+                    class="bg-[#E7F6F2] dark:bg-[#E7F6F2] rounded-lg shadow-lg overflow-hidden flex flex-col items-center p-6">
+                    <a href="productos.html" aria-label="View details for Smartwatch Deportivo con Monitor Cardíaco">
+                        <img class="w-full h-48 object-cover rounded-t-lg mb-4"
+                            src="/img/reloj.png"
+                            alt="Smartwatch Deportivo con Monitor Cardíaco" loading="lazy" />
+                    </a>
+                    <div class="flex flex-col items-center text-center flex-grow">
+                        <h3 class="text-xl font-semibold mb-2">Smartwatch Deportivo con Monitor Cardíaco !OFERTA! </h3>
+                        <div class="flex items-center mb-4">
+                            <span class="text-yellow-400">
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                            </span>
+                            <span class="text-sm text-gray-600 dark:text-gray-400 ml-2">(5.0)</span>
+                        </div>
+                        <p class="text-lg font-bold text-gray-700 dark:text-black mb-4">$189.50</p>
+                        <a href="#"
+                            class="inline-block bg-black hover:bg-blue-700 text-white font-semibold py-2 px-4 rounded-lg transition duration-300 ease-in-out">
+                            Añadir al carrito
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-[#A5C9CA] dark:bg-[#A5C9CA] text-black py-8 mt-12">
+        <div class="mx-auto w-full max-w-screen-xl p-4 md:py-8">
+            <div class="md:flex md:justify-between">
+                <div class="mb-6 md:mb-0">
+                    <a href="/index.html" class="flex items-center">
+                        <img src="img/logoPoltech.svg" class="h-20 me-10" alt="POLTECH QUITO Logo" />
+                        <span class="self-center text-2xl text-2xl font-bold text-black">POLTECH
+                            QUITO</span>
+                    </a>
+                </div>
+                <div>
+                    <h2 class="mb-6 text-sm font-semibold text-gray-200 uppercase dark:text-black">Síguenos</h2>
+                    <ul class="text-black-300 dark:text-black-400 font-medium">
+                        <li class="mb-2">
+                            <a href="https://github.com/themesberg/flowbite" class="hover:underline">Github</a>
+                        </li>
+                        <li>
+                            <a href="https://discord.gg/hrR4JsX" class="hover:underline">Discord</a>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <h2 class="mb-6 text-sm font-semibold text-gray-200 uppercase dark:text-black">TIENDAS</h2>
+                    <ul class="text-black-300 dark:text-black-400 font-medium">
+                        <li class="mb-2">
+                            <a href="https://maps.app.goo.gl/YUmAEe949D52SnyE8" class="hover:underline">Tienda Quito SUR</a>
+                        </li>
+                        <li>
+                            <a href="https://maps.app.goo.gl/eeUUACBpBbcGQsyd9" class="hover:underline">Tienda Quito NORTE</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <hr class="my-6 border-gray-700 sm:mx-auto dark:border-gray-700 lg:my-8" />
+        <div class="sm:flex sm:items-center sm:justify-between">
+            <span class="text-sm text-gray-300 sm:text-center dark:text-gray-400">© 2025 <a href="index.html"
+                    class="hover:underline">POLTECH QUITO™</a>. Todos los derechos reservados.
+            </span>
+            <div class="flex mt-4 xl:justify-center xl:mt-0 space-x-5 rtl:space-x-reverse">
+                <a href="https://www.facebook.com/paul.antamba.13" class="text-gray-300 hover:text-white dark:hover:text-white">
+                    <i class="bi bi-facebook h-4 w-4"></i>
+                    <span class="sr-only">Facebook</span>
+                </a>
+                
+            </div>
+        </div>
+        </div>
+    </footer>
+</body>
+
+</html>
